@@ -37,7 +37,6 @@ include:
 # Settings reset for both board types
 - board: nice_nano//zmk
   shield: settings_reset
-  cmake-args: -DCONFIG_ZMK_STUDIO_RESTORE_STOCK=y
 - board: xiao_ble//zmk
   shield: settings_reset
 
